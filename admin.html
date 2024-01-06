@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <span>Hello Yogesh!</span>
+                <span><a class="nav-link" href="./index.html">Home</a></span>
+            </div>
+            <div class="page-content">
+                <div class="admin-container">
+                    <form action="" id="form" method="post" name="form">
+                        <div class="admin-row">
+                            <h4>Name</h4>
+                            <input name="name" class="text-input" placeholder="Enter mobile name" required type="text" value=""/>
+                        </div>
+                        <div class="admin-row">
+                            <h4>Price</h4>
+                            <input name="price" class="text-input" placeholder="Enter price" required type="number" value=""/>
+                        </div>
+                        <div class="admin-row">
+                            <h4>ROM</h4>
+                            <input name="rom" class="text-input" placeholder="Enter internal storage" required type="number" value=""/>
+                        </div>
+                        <div class="admin-row">
+                            <h4>RAM</h4>
+                            <input name="ram" class="text-input" placeholder="Enter RAM" required type="number" value=""/>
+                        </div>
+                        <div class="admin-row">
+                            <h4>Color</h4>
+                            <input name="color" class="text-input" placeholder="Enter Color" required type="text" value=""/>
+                        </div>
+                        <div class="admin-row">
+                            <h4>Brand</h4>
+                            <select name="brand" required>
+                                <option value="">Select brand</option>
+                                <option value="iphone">iPhone</option>
+                                <option value="samsung">Samsung</option>
+                                <option value="oneplus">OnePlus</option>
+                            </select>
+                        </div>
+                        <div class="admin-row btn-container">
+                            <button type="submit" class="btn">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/admin.js"></script>
+</html>
